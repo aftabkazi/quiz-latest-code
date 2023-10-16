@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="cert_ncss" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="fc4d1538-84ed-46af-a3b0-edfa26779681">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<style name="Sanserif" fontName="DejaVu Serif" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false"/>
+	<parameter name="imagepath" class="java.lang.String"/>
+	<parameter name="qrpath" class="java.lang.String"/>
+	<field name="name" class="java.lang.String"/>
+	<field name="quizname" class="java.lang.String"/>
+	<field name="sessiondate" class="java.lang.String"/>
+	<field name="certificateid" class="java.lang.String"/>
+	<field name="issuedate" class="java.lang.String"/>
+	<field name="percentage" class="java.lang.Number"/>
+	<background>
+		<band height="555" splitType="Stretch">
+			<image>
+				<reportElement x="10" y="0" width="790" height="555" uuid="cef2670e-ba14-4b90-af94-adf55f0c0818"/>
+				<imageExpression><![CDATA[$P{imagepath}+"sea.jpg"]]></imageExpression>
+			</image>
+		</band>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="180" splitType="Stretch">
+			<textField>
+				<reportElement x="348" y="91" width="393" height="28" uuid="dba7ddba-abb3-45ae-8eee-c22e6dad08a0"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="20" isBold="true" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{name}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="384" y="26" width="224" height="21" uuid="ad9d8405-72aa-4db6-8175-7697c90a6c61"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{certificateid}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="286" y="26" width="98" height="21" forecolor="#000000" uuid="263bb21b-892c-41ad-a588-9c789b8ddde4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Certificate No :]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="326" y="64" width="393" height="28" uuid="5f03eafd-2932-418c-9556-0fa4a3bd3a2e"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="20" isBold="true" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{quizname}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="625" y="131" width="177" height="27" uuid="1b79bcbb-c75c-48d3-a99c-8747cd2c4b07"/>
+				<textElement>
+					<font size="20" isBold="true" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{percentage}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<summary>
+		<band height="195" splitType="Stretch">
+			<image>
+				<reportElement x="384" y="87" width="75" height="75" uuid="c748f882-4c10-4c72-b6b7-d6c8683b60b0"/>
+				<imageExpression><![CDATA[$P{qrpath}]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement positionType="FixRelativeToBottom" x="431" y="162" width="96" height="20" forecolor="#666666" uuid="b4a89a1d-8631-4204-9046-9e68b90da839"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{issuedate}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="357" y="162" width="74" height="20" forecolor="#666666" uuid="7a0a5050-95c2-4170-96a8-d7aa282cc751"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Issued Date :]]></text>
+			</staticText>
+		</band>
+	</summary>
+</jasperReport>

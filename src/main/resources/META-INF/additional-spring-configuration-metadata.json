@@ -1,0 +1,132 @@
+{"properties": [
+  {
+    "name": "project.image",
+    "type": "java.lang.String",
+    "description": "A description for 'project.image'"
+  },
+  {
+    "name": "Spring.Servlet.multipart.enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'Spring.Servlet.multipart.enabled'"
+  },
+  {
+    "name": "Spring.Servlet.multipart.file-size-threshold",
+    "type": "java.lang.String",
+    "description": "A description for 'Spring.Servlet.multipart.file-size-threshold'"
+  },
+  {
+    "name": "Spring.Servlet.multipart.max-file-size",
+    "type": "java.lang.String",
+    "description": "A description for 'Spring.Servlet.multipart.max-file-size'"
+  },
+  {
+    "name": "Spring.Servlet.multipart.max-file-size",
+    "type": "java.lang.String",
+    "description": "A description for 'Spring.Servlet.multipart.max-file-size'"
+  },
+  {
+    "name": "Spring.Servlet.multipart.max-file-size",
+    "type": "java.lang.String",
+    "description": "A description for 'Spring.Servlet.multipart.max-file-size'"
+  },
+  {
+    "name": "Spring.Servlet.multipart.max-request-size",
+    "type": "java.lang.String",
+    "description": "A description for 'Spring.Servlet.multipart.max-request-size'"
+  },
+  {
+    "name": "Spring.Servlet.multipart.max-request-size",
+    "type": "java.lang.String",
+    "description": "A description for 'Spring.Servlet.multipart.max-request-size'"
+  },
+  {
+    "name": "Spring.Servlet.multipart.enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'Spring.Servlet.multipart.enabled'"
+  },
+  {
+    "name": "Spring.Servlet.multipart.enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'Spring.Servlet.multipart.enabled'"
+  },
+  {
+    "name": "Spring.Servlet.multipart.enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'Spring.Servlet.multipart.enabled'"
+  },
+  {
+    "name": "Spring.Servlet.multipart.max-request-size",
+    "type": "java.lang.String",
+    "description": "A description for 'Spring.Servlet.multipart.max-request-size'"
+  },
+  {
+    "name": "Spring.Servlet.multipart.max-request-size",
+    "type": "java.lang.String",
+    "description": "A description for 'Spring.Servlet.multipart.max-request-size'"
+  },
+  {
+    "name": "Spring.Servlet.multipart.max-request-size",
+    "type": "java.lang.String",
+    "description": "A description for 'Spring.Servlet.multipart.max-request-size'"
+  },
+  {
+    "name": "Spring.Servlet.multipart.enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'Spring.Servlet.multipart.enabled'"
+  },
+  {
+    "name": "Spring.Servlet.multipart.enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'Spring.Servlet.multipart.enabled'"
+  },
+  {
+    "name": "Spring.Servlet.multipart.enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'Spring.Servlet.multipart.enabled'"
+  },
+  {
+    "name": "client",
+    "type": "java.lang.String",
+    "description": "A description for 'client'"
+  },
+  {
+    "name": "Spring.Servlet.multipart.enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'Spring.Servlet.multipart.enabled'"
+  },
+  {
+    "name": "Spring.Servlet.multipart.enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'Spring.Servlet.multipart.enabled'"
+  },
+  {
+    "name": "Spring.Servlet.multipart.enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'Spring.Servlet.multipart.enabled'"
+  },
+  {
+    "name": "Spring.Servlet.multipart.enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'Spring.Servlet.multipart.enabled'"
+  },
+  {
+    "name": "Spring.Servlet.multipart.file-size-threshold",
+    "type": "java.lang.String",
+    "description": "A description for 'Spring.Servlet.multipart.file-size-threshold'"
+  },
+  {
+    "name": "Spring.Servlet.multipart.enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'Spring.Servlet.multipart.enabled'"
+  },
+  {
+    "name": "Spring.Servlet.multipart.enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'Spring.Servlet.multipart.enabled'"
+  },
+  {
+    "name": "quiz.ppcom",
+    "type": "java.lang.String",
+    "description": "A description for 'quiz.ppcom'"
+  }
+]}
